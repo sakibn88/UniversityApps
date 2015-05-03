@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="sakibn88-001-site1" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\ASP\.net\\Home\ Works\\UniversityApps\\UniversityApps\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^E:\\ASP\.net\\Home\ Works\\UniversityApps\\UniversityApps\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="UniversityAppcontext-Web.config Connection String" description="" value="Data Source=SQL5007.myWindowsHosting.com;Initial Catalog=DB_9BD94F_abcuniversity;User ID=DB_9BD94F_abcuniversity_admin;Password=11593351" tags="">
+    <parameterEntry kind="XmlFile" scope="E:\\ASP\.net\\Home\ Works\\UniversityApps\\UniversityApps\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='UniversityAppcontext']/@connectionString" />
+  </parameter>
+  <parameter name="UniversityDBcontext-Web.config Connection String" description="" value="Data Source=SQL5007.myWindowsHosting.com;Initial Catalog=DB_9BD94F_abcuniversity;Persist Security Info=True;User ID=DB_9BD94F_abcuniversity_admin;Password=11593351" tags="">
+    <parameterEntry kind="XmlFile" scope="E:\\ASP\.net\\Home\ Works\\UniversityApps\\UniversityApps\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='UniversityDBcontext']/@connectionString" />
+  </parameter>
+</parameters>
